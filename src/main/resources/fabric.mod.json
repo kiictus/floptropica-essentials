@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "floptropica",
+	"version": "${version}",
+	"name": "Floptropica Essentials",
+	"description": "All the Floptropican goodies you would ever need, in one mod.",
+	"authors": [
+		"Kiictus"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/floptropica/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kiictus.floptropica.FloptropicaEssentials"
+		],
+		"client": [
+			"net.kiictus.floptropica.FloptropicaEssentialsClient"
+		],
+		"fabric-datagen": [
+			"net.kiictus.floptropica.FloptropicaEssentialsDataGenerator"
+		]
+	},
+	"mixins": [
+		"floptropica.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
