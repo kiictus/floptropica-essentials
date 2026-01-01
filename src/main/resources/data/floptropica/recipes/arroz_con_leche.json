@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croptopia:rice"
+    },
+    {
+      "tag": "c:milks"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "croptopia:cinnamon"
+    }
+  ],
+  "result": {
+    "item": "floptropica:arroz_con_leche"
+  }
+}

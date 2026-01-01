@@ -2,5 +2,34 @@
   "item.floptropica.coat-hanger": "Coat Hanger",
   "item.floptropica.yeast": "Amazing Strong Independent Yeast",
 
-  "itemgroup.floptropica": "Floptropica Essentials"
+  "block.floptropica.yeast_vacuum": "Yeast Vacuum",
+  "effect.floptropica.preggy": "Preggy With Bejba",
+  "effect.floptropica.aborsha": "Preggy With No Bejba",
+
+  "itemgroup.floptropica": "Floptropica Essentials",
+
+  "item.floptropica.khinkali": "Khinkali",
+  "item.floptropica.arroz_con_leche": "Arroz Con Leche",
+  "item.floptropica.bechamel": "Béchamel",
+  "item.floptropica.cachopo": "Cachopo",
+  "item.floptropica.caldo_gallego": "Caldo Gallego",
+  "item.floptropica.cocido": "Cocido",
+  "item.floptropica.crema_catalana": "Crema Catalana",
+  "item.floptropica.croquetas": "Croquetas",
+  "item.floptropica.empanada_de_atun": "Empanada De Atún",
+  "item.floptropica.ensaimada": "Ensaimada",
+  "item.floptropica.huevos_rotos": "Huevos Rotos",
+  "item.floptropica.jamon_iberico": "Jamón Ibérico",
+  "item.floptropica.lentejas": "Lentejas",
+  "item.floptropica.paella": "Paella",
+  "item.floptropica.papas_bravas": "Papas Bravas",
+  "item.floptropica.pulpo_a_la_gallega": "Pulpo A La Gallega",
+  "item.floptropica.roscon_de_reyes": "Roscón De Reyes",
+  "item.floptropica.torreznos": "Torreznos",
+  "item.floptropica.torrijas": "Torrijas",
+  "item.floptropica.raw_torrijas": "Raw Torrijas",
+  "item.floptropica.tortilla": "Tortilla",
+
+  "tooltip.floptropica.coat_hanger.tooltip": "A tool to get an abortion, brought to you by Trump's America",
+  "tooltip.floptropica.yeast_vacuum.tooltip": "Vacuum up all the yeast infection to get packaged yeast!"
 }

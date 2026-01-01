@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croptopia:calamari"
+    },
+    {
+      "item": "croptopia:calamari"
+    },
+    {
+      "item": "croptopia:calamari"
+    },
+    {
+      "item": "croptopia:paprika"
+    },
+    {
+      "item": "croptopia:paprika"
+    }
+  ],
+  "result": {
+    "item": "floptropica:pulpo_a_la_gallega"
+  }
+}

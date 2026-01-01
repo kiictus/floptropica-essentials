@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:milks"
+    },
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "tag": "c:butters"
+    }
+  ],
+  "result": {
+    "item": "floptropica:bechamel"
+  }
+}

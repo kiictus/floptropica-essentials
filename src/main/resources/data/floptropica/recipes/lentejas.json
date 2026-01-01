@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "croptopia:cabbage"
+    },
+    {
+      "item": "croptopia:coffee_beans"
+    },
+    {
+      "item": "croptopia:coffee_beans"
+    },
+    {
+      "item": "croptopia:coffee_beans"
+    }
+  ],
+  "result": {
+    "item": "floptropica:lentejas"
+  }
+}

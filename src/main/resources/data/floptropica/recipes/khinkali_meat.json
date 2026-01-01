@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "tag": "c:water_bottles"
+    },
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "croptopia:onion"
+    },
+    {
+      "item": "croptopia:spinach"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "result": {
+    "item": "floptropica:khinkali"
+  }
+}

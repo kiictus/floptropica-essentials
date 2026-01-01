@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "tag": "c:water_bottles"
+    },
+    {
+      "item": "croptopia:cabbage"
+    },
+    {
+      "item": "croptopia:cabbage"
+    }
+  ],
+  "result": {
+    "item": "floptropica:caldo_gallego"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "tag": "c:milks"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "croptopia:cinnamon"
+    }
+  ],
+  "result": {
+    "item": "floptropica:raw_torrijas"
+  }
+}

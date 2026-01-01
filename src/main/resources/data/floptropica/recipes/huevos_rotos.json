@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "floptropica:jamon_iberico"
+    },
+    {
+      "item": "croptopia:scrambled_eggs"
+    },
+    {
+      "item": "croptopia:scrambled_eggs"
+    }
+  ],
+  "result": {
+    "item": "floptropica:huevos_rotos"
+  }
+}

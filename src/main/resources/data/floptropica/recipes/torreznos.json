@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "croptopia:olive_oil"
+    }
+  ],
+  "result": {
+    "item": "floptropica:torreznos",
+    "count": 3
+  }
+}

@@ -2,6 +2,8 @@ package net.kiictus.floptropica;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kiictus.floptropica.block.ModBlocks;
+import net.kiictus.floptropica.effect.ModEffects;
 import net.kiictus.floptropica.item.ModItemGroups;
 import net.kiictus.floptropica.item.ModItems;
 import org.slf4j.Logger;
@@ -14,7 +16,9 @@ public class FloptropicaEssentials implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModEffects.registerEffects();
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
