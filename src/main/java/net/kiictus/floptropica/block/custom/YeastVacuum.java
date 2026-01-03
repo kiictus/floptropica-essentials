@@ -2,6 +2,7 @@ package net.kiictus.floptropica.block.custom;
 
 import net.kiictus.floptropica.FloptropicaEssentials;
 import net.kiictus.floptropica.effect.ModEffects;
+import net.kiictus.floptropica.sound.ModSounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;
@@ -38,7 +39,7 @@ public class YeastVacuum extends Block {
             if (hasteEffect != null) {
                 player.removeStatusEffect(ModEffects.ABORSHA.value());
 
-                world.playSound(null, pos, SoundEvents.BLOCK_ENCHANTMENT_TABLE_USE,
+                world.playSound(null, pos, ModSounds.VACUUM_GULP,
                         SoundCategory.BLOCKS, 1.0F, 1.0F);
 
                 Random random = world.random;

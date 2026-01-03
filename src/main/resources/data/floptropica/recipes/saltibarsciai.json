@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croptopia:greenonion"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "croptopia:cucumber"
+    },
+    {
+      "tag": "c:milks"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "croptopia:salt"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "floptropica:saltibarsciai"
+  }
+}

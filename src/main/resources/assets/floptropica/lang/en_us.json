@@ -2,12 +2,15 @@
   "item.floptropica.coat-hanger": "Coat Hanger",
   "item.floptropica.yeast": "Amazing Strong Independent Yeast",
 
+  "item.floptropica.cepelinai": "Cepelinai",
+  "item.floptropica.dough_on_a_stick": "Dough On A Stick",
+  "item.floptropica.sakotis": "Šakotis",
+  "item.floptropica.saltibarsciai": "Šaltibarščiai",
   "block.floptropica.yeast_vacuum": "Yeast Vacuum",
   "effect.floptropica.preggy": "Preggy With Bejba",
   "effect.floptropica.aborsha": "Preggy With No Bejba",
 
   "itemgroup.floptropica": "Floptropica Essentials",
-
   "item.floptropica.khinkali": "Khinkali",
   "item.floptropica.arroz_con_leche": "Arroz Con Leche",
   "item.floptropica.bechamel": "Béchamel",
@@ -30,6 +33,8 @@
   "item.floptropica.raw_torrijas": "Raw Torrijas",
   "item.floptropica.tortilla": "Tortilla",
 
+  "sounds.floptropica.coat_hanger_moan": "Coat hanger used",
+  "sounds.floptropica.vacuum_gulp": "Yeast vacuum used",
   "tooltip.floptropica.coat_hanger.tooltip": "A tool to get an abortion, brought to you by Trump's America",
   "tooltip.floptropica.yeast_vacuum.tooltip": "Vacuum up all the yeast infection to get packaged yeast!"
 }

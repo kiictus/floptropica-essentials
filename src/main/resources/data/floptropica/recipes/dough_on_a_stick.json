@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "croptopia:dough"
+    }
+  ],
+  "result": {
+    "item": "floptropica:dough_on_a_stick"
+  }
+}

@@ -19,9 +19,14 @@ public class ModItemGroups {
 
 
                         entries.add(ModItems.COATHANGER);
-                        entries.add(ModItems.YEAST);
                         entries.add(ModBlocks.YEAST_VACUUM);
-                        
+                        entries.add(ModItems.YEAST);
+                        entries.add(ModItems.DOUGH_ON_A_STICK);
+
+                        entries.add(ModItems.CEPELINAI);
+                        entries.add(ModItems.SAKOTIS);
+                        entries.add(ModItems.SALTIBARSCIAI);
+
                         entries.add(ModItems.KHINKALI);
                         entries.add(ModItems.BECHAMEL);
                         entries.add(ModItems.RAW_TORRIJAS);

@@ -1,0 +1,15 @@
+{
+  "coat_hanger_moan": {
+  "subtitle": "sounds.floptropica.coat_hanger_moan",
+    "sounds": [
+      "floptropica:coat_hanger_moan"
+    ]
+},
+  "vacuum_gulp": {
+  "subtitle": "sounds.floptropica.vacuum_gulp",
+    "sounds": [
+      "floptropica:vacuum_gulp"
+    ]
+},
+
+}

@@ -1,6 +1,7 @@
 package net.kiictus.floptropica.item.custom;
 
 import net.kiictus.floptropica.effect.ModEffects;
+import net.kiictus.floptropica.sound.ModSounds;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -48,7 +49,7 @@ public class CoatHanger extends Item {
 
             // Play sound or other effects
             world.playSound(null, user.getX(), user.getY(), user.getZ(),
-                    SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, SoundCategory.PLAYERS,
+                    ModSounds.COAT_HANGER_MOAN, SoundCategory.PLAYERS,
                     1.0F, 1.0F);
 
             return TypedActionResult.success(stack, world.isClient());

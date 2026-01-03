@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "203",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {"item": "minecraft:potato"},
+    "1": {"item": "croptopia:tofu"},
+    "2": {"item": "croptopia:greenonion"},
+    "3": {"item": "croptopia:crema"}
+  },
+  "result": {
+    "item": "floptropica:cepelinai",
+    "count": 2
+  }
+}

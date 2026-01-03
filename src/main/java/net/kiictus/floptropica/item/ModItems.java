@@ -14,13 +14,16 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item COATHANGER = registerItem("coat-hanger", new CoatHanger(new FabricItemSettings()));
     public static final Item YEAST = registerItem("yeast", new Item(new FabricItemSettings()));
+    public static final Item DOUGH_ON_A_STICK = registerItem("dough_on_a_stick", new Item(new FabricItemSettings()));
 
+    public static final Item SAKOTIS = registerItem("sakotis", new Item(new FabricItemSettings().food(ModFoodComponents.SAKOTIS)));
+    public static final Item SALTIBARSCIAI = registerItem("saltibarsciai", new Item(new FabricItemSettings().food(ModFoodComponents.SALTIBARSCIAI)));
+    public static final Item CEPELINAI = registerItem("cepelinai", new Item(new FabricItemSettings().food(ModFoodComponents.CEPELINAI)));
 
+    public static final Item KHINKALI = registerItem("khinkali", new Item(new FabricItemSettings().food(ModFoodComponents.KHINKALI)));
 
     public static final Item BECHAMEL = registerItem("bechamel", new Item(new FabricItemSettings()));
     public static final Item RAW_TORRIJAS = registerItem("raw_torrijas", new Item(new FabricItemSettings()));
-
-    public static final Item KHINKALI = registerItem("khinkali", new Item(new FabricItemSettings().food(ModFoodComponents.KHINKALI)));
     public static final Item ARROZ_CON_LECHE = registerItem("arroz_con_leche", new Item(new FabricItemSettings().food(ModFoodComponents.ARROZ_CON_LECHE)));
     public static final Item CACHOPO = registerItem("cachopo", new Item(new FabricItemSettings().food(ModFoodComponents.CACHOPO)));
     public static final Item CALDO_GALLEGO = registerItem("caldo_gallego", new Item(new FabricItemSettings().food(ModFoodComponents.CALDO_GALLEGO)));
