@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "020",
+    " 3 "
+  ],
+  "key": {
+    "0": {"item": "minecraft:iron_ingot"},
+    "1": {"item": "minecraft:glass_pane"},
+    "2": {"item": "croptopia:redstone"},
+    "3": {"tag": "minecraft:buttons"}
+  },
+  "result": {
+    "item": "slide_show:flipper"
+  }
+}
