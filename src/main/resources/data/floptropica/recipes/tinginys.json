@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:milks"
+    },
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "croptopia:butter"
+    }
+  ],
+  "result": {
+    "item": "floptropica:tinginys",
+    "count": 3
+  }
+}

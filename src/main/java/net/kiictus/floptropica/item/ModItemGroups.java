@@ -17,18 +17,28 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.COATHANGER)).entries((displayContext, entries) -> {
 
 
-
+                        entries.add(ModItems.ROSE_TOY);
                         entries.add(ModItems.COATHANGER);
                         entries.add(ModBlocks.YEAST_VACUUM);
+
+                        entries.add(ModItems.BARBACOA_AL_PUNTO_G_DISC);
+                        entries.add(ModItems.GRINDR_LABUBU_DISC);
+
                         entries.add(ModItems.YEAST);
+                        entries.add(ModItems.BECHAMEL);
                         entries.add(ModItems.DOUGH_ON_A_STICK);
+                        entries.add(ModItems.RAW_FETUS);
+                        entries.add(ModItems.COOKED_FETUS);
 
                         entries.add(ModItems.CEPELINAI);
+                        entries.add(ModItems.GIRA);
+                        entries.add(ModItems.KEFIR);
+                        entries.add(ModItems.KHINKALI);
                         entries.add(ModItems.SAKOTIS);
                         entries.add(ModItems.SALTIBARSCIAI);
+                        entries.add(ModItems.TINGINYS);
 
-                        entries.add(ModItems.KHINKALI);
-                        entries.add(ModItems.BECHAMEL);
+
                         entries.add(ModItems.RAW_TORRIJAS);
                         entries.add(ModItems.ARROZ_CON_LECHE);
                         entries.add(ModItems.CACHOPO);

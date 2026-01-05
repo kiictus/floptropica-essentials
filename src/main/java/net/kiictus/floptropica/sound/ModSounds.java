@@ -8,8 +8,10 @@ import net.minecraft.util.Identifier;
 
 public class ModSounds {
     public static final SoundEvent COAT_HANGER_MOAN = registerSoundEvent("coat_hanger_moan");
-
     public static final SoundEvent VACUUM_GULP = registerSoundEvent("vacuum_gulp");
+
+    public static final SoundEvent BARBACOA_AL_PUNTO_G = registerSoundEvent("barbacoa_al_punto_g");
+    public static final SoundEvent GRINDR_LABUBU = registerSoundEvent("grindr_labubu");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(FloptropicaEssentials.MOD_ID, name);

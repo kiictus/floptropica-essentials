@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {"item": "minecraft:rotten_flesh"},
+    "1": {"item": "minecraft:iron_nugget"}
+  },
+  "result": {
+    "item": "floptropica:raw_fetus"
+  }
+}

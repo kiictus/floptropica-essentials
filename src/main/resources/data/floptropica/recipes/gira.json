@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:water_bottles"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "floptropica:yeast"
+    }
+  ],
+  "result": {
+    "item": "floptropica:gira",
+    "count": 3
+  }
+}

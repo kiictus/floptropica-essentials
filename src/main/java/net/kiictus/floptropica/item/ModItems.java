@@ -5,20 +5,39 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kiictus.floptropica.FloptropicaEssentials;
 import net.kiictus.floptropica.item.custom.CoatHanger;
+import net.kiictus.floptropica.sound.ModSounds;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
+    public static final Item BARBACOA_AL_PUNTO_G_DISC = registerItem("barbacoa_al_punto_g_disc",
+            new MusicDiscItem(
+                    6, // Comparator output (1-15)
+                    ModSounds.BARBACOA_AL_PUNTO_G, // Direct SoundEvent - NO lambda!
+                    new FabricItemSettings()
+                            .maxCount(1)
+                            .rarity(Rarity.RARE),
+                    204 // Length in seconds (3:24)
+            )
+    );    public static final Item GRINDR_LABUBU_DISC = registerItem("grindr_labubu_disc", new MusicDiscItem(6, ModSounds.GRINDR_LABUBU, new FabricItemSettings().maxCount(1), 131));
     public static final Item COATHANGER = registerItem("coat-hanger", new CoatHanger(new FabricItemSettings()));
     public static final Item YEAST = registerItem("yeast", new Item(new FabricItemSettings()));
     public static final Item DOUGH_ON_A_STICK = registerItem("dough_on_a_stick", new Item(new FabricItemSettings()));
+    public static final Item ROSE_TOY = registerItem("rose_toy", new Item(new FabricItemSettings()));
 
+    public static final Item RAW_FETUS = registerItem("raw_fetus", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_FETUS)));
+    public static final Item COOKED_FETUS = registerItem("cooked_fetus", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_FETUS)));
+    public static final Item KEFIR = registerItem("kefir", new Item(new FabricItemSettings().food(ModFoodComponents.KEFIR)));
+    public static final Item GIRA = registerItem("gira", new Item(new FabricItemSettings().food(ModFoodComponents.GIRA)));
     public static final Item SAKOTIS = registerItem("sakotis", new Item(new FabricItemSettings().food(ModFoodComponents.SAKOTIS)));
     public static final Item SALTIBARSCIAI = registerItem("saltibarsciai", new Item(new FabricItemSettings().food(ModFoodComponents.SALTIBARSCIAI)));
     public static final Item CEPELINAI = registerItem("cepelinai", new Item(new FabricItemSettings().food(ModFoodComponents.CEPELINAI)));
+    public static final Item TINGINYS = registerItem("tinginys", new Item(new FabricItemSettings().food(ModFoodComponents.TINGINYS)));
 
     public static final Item KHINKALI = registerItem("khinkali", new Item(new FabricItemSettings().food(ModFoodComponents.KHINKALI)));
 

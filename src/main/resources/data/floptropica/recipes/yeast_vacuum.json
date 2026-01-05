@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "020",
+    "010",
+    "020"
+  ],
+  "key": {
+    "0": {"item": "minecraft:iron_ingot"},
+    "1": {"item": "minecraft:hopper"},
+    "2": {"item": "minecraft:piston"}
+  },
+  "result": {
+    "item": "floptropica:yeast_vacuum"
+  }
+}

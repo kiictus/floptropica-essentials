@@ -11,5 +11,21 @@
       "floptropica:vacuum_gulp"
     ]
 },
+  "grindr_labubu": {
+    "sounds": [
+      {
+        "name": "floptropica:grindr_labubu",
+        "stream": true
+      }
+        ]
+},
+  "barbacoa_al_punto_g": {
+    "sounds": [
+      {
+        "name": "floptropica:barbacoa_al_punto_g",
+        "stream": true
+      }
+        ]
+}
 
 }
